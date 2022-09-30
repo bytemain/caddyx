@@ -15,9 +15,6 @@ services:
       - caddy_data:/data
       - ./config:/etc/caddy
     restart: unless-stopped
-    command:
-      - "caddy"
-      - "docker-proxy"
 
 networks:
   caddy:
