@@ -13,6 +13,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - caddy_data:/data
+      # use folder so caddy can watch the Caddyfile change
       - ./config:/etc/caddy
     restart: unless-stopped
 
