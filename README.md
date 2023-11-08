@@ -2,7 +2,7 @@
 
 [![Build Docker Image](https://github.com/bytemain/caddyx/actions/workflows/build-and-push.yml/badge.svg?branch=main)](https://github.com/bytemain/caddyx/actions/workflows/build-and-push.yml)
 
-caddy image with cloudflare/docker-proxy
+caddy image with docker-proxy/cloudflare-dns/ali-dns
 
 ## Quick Start
 
@@ -16,7 +16,7 @@ docker pull ghcr.io/bytemain/caddyx:main
 
 ## Behind Scene
 
-https://caddyserver.com/
+<https://caddyserver.com/>
 
 Building your own Caddy-based image By [Caddy Docker Builder](https://hub.docker.com/_/caddy)
 
