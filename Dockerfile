@@ -1,4 +1,4 @@
-ARG CADDY_VERSION=2.7.5
+ARG CADDY_VERSION=2.10.2
 FROM caddy:${CADDY_VERSION}-builder AS builder
 
 RUN xcaddy build \
@@ -6,7 +6,7 @@ RUN xcaddy build \
     --with github.com/caddy-dns/cloudflare \
     --with github.com/caddy-dns/alidns
 
-FROM caddy:${CADDY_VERSION}-alpine
+FROM caddy:${CADDY_VERSION}
 
 RUN apk add -U --no-cache curl
 
