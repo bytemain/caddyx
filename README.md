@@ -4,6 +4,8 @@
 
 caddy image with docker-proxy/cloudflare-dns/ali-dns
 
+- https://github.com/lucaslorentz/caddy-docker-proxy
+
 ## Quick Start
 
 More info you can see: <https://github.com/bytemain/caddyx/pkgs/container/caddyx>
