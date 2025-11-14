@@ -16,7 +16,8 @@ services:
       # use folder so caddy can watch the Caddyfile change
       - ./config:/etc/caddy
     restart: unless-stopped
-
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 networks:
   caddy:
     external: true
