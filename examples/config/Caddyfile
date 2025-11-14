@@ -1,3 +1,7 @@
 {
 	debug
 }
+
+host.example.com {
+    reverse_proxy host.docker.internal:3721
+}
